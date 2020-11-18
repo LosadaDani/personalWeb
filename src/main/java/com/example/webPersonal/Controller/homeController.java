@@ -11,9 +11,14 @@ public class homeController {
         return "viewFront/home";
     }
 
-    @GetMapping("/resume")
-    public String resume(){
-        return "viewFront/resume";
+    @GetMapping("/experience")
+    public String experience(){
+        return "viewFront/experience";
+    }
+
+    @GetMapping("/education")
+    public String education(){
+        return "viewFront/education";
     }
 
     @GetMapping("/projects")
@@ -21,8 +26,8 @@ public class homeController {
         return "viewFront/projects";
     }
 
-    @GetMapping("/contact")
-    public String contact(){
-        return "viewFront/contact";
+    @GetMapping("/skills")
+    public String skills(){
+        return "viewFront/skills";
     }
 }
